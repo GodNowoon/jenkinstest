@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        REGISTRY = "harbor.mycompany.com"
-        PROJECT = "my-app"
-        IMAGE_NAME = "backend"
-        HARBOR_CRED = credentials('harbor-cred')
+        REGISTRY = "113.198.66.77:18170"
+        PROJECT = "test_nowoon"
+        IMAGE_NAME = "goodjenkins"
+        HARBOR_CRED = credentials('admin')
     }
 
     stages {
